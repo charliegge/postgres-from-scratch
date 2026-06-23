@@ -15,14 +15,13 @@ CREATE DATABASE movie_data
 
 
 -- 1. Drop existing tables if they exist (drop child tables first to avoid constraint errors)
+
 DROP TABLE IF EXISTS directors;
 DROP TABLE IF EXISTS actors;
 DROP TABLE IF EXISTS movies;
 DROP TABLE IF EXISTS movie_revenues;
 DROP TABLE IF EXISTS movies_actors;
 
-
---Create 5 tables
 
 -- 2. Create the directors table
 
@@ -35,7 +34,7 @@ CREATE TABLE directors (
 	nationality VARCHAR (20)
 );
 
---Create actor table
+--Create actors table
 
 
 CREATE TABLE actors (
@@ -75,7 +74,7 @@ CREATE TABLE movie_revenues(
 
 );
 
---Create the movies_actors table junction table)
+--Create the movies_actors table (junction table)
 
 CREATE TABLE movies_actors(
 
@@ -84,4 +83,10 @@ CREATE TABLE movies_actors(
 	PRIMARY KEY (movie_id,actor_id)
 );
 
+
+
+
+
+
+	
 
