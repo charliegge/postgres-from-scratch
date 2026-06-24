@@ -9,7 +9,7 @@ The goal of this repository is to document my transition from writing basic quer
 ## 🛠️ Skills Tracker
 As I progress through the course, I am checking off core SQL milestones:
 - [x] Database Basics & Installing PostgreSQL
-- [ ] Relational Design, Primary Keys, & Foreign Keys
+- [x] Relational Design, Primary Keys, & Foreign Keys
 - [ ] Advanced Data Filtering (`WHERE`, `LIKE`, `HAVING`)
 - [ ] Data Aggregation (`GROUP BY`, `SUM`, `AVG`)
 - [ ] Table Joins (`INNER`, `LEFT`, `RIGHT`, `FULL`)
